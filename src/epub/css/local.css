@@ -131,3 +131,9 @@ table td:last-child{
 	text-align: right;
 }
 /* end general table formatting */
+
+/* roman numbered list */
+#chapter-25 ol{
+	list-style-type: upper-roman;
+}
+/* end roman numbered list */
