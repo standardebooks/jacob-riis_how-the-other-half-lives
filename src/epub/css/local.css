@@ -141,8 +141,8 @@ table tr:first-child th{
 }
 
 #chapter-6 table td:not(:first-child){
-	text-align: center;
 	border-left: 1px solid;
+	text-align: center;
 	width: 10%;
 }
 
@@ -152,3 +152,33 @@ table tr:first-child th{
 	border-bottom: 1px solid;
 }
 /* end chapter 6 table */
+
+/* chapter 13 table */
+#chapter-13 th:first-child,
+#chapter-13 tr:last-child td:nth-child(3),
+#chapter-13 tr:not(:last-child) td:nth-child(5){
+	border-right: 1px solid;
+}
+
+#chapter-13 thead tr:last-child td:first-child{
+	border-right: 1px solid;
+}
+
+#chapter-13 tbody td:nth-child(5),
+#chapter-13 tbody td:last-child,
+#chapter-13 thead tr:last-child{
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: right;
+}
+
+#chapter-13 tbody td:nth-child(3),
+#chapter-13 tbody td:nth-child(8){
+	text-align: center;
+}
+
+#chapter-13 tbody tr:nth-child(11) td:nth-child(5),
+#chapter-13 tbody tr:nth-child(11) td:last-child{
+	border-bottom: 1px solid;
+}
+/* end chapter 13 table */
