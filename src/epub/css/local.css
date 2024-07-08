@@ -140,7 +140,8 @@ table tr:first-child th{
 	border-top: 1px solid;
 }
 
-#chapter-6 table td:not(:first-child){
+/* #chapter-6 table td:not(:first-child){ */
+#chapter-6 table td + td{
 	border-left: 1px solid;
 	text-align: center;
 	width: 10%;
@@ -156,7 +157,8 @@ table tr:first-child th{
 /* chapter 13 table */
 #chapter-13 th:first-child,
 #chapter-13 tr:last-child td:nth-child(3),
-#chapter-13 tr:not(:last-child) td:nth-child(5){
+/* #chapter-13 tr:not(:last-child) td:nth-child(5){ */
+#chapter-13 tr td:nth-child(5){  /* FIXME */
 	border-right: 1px solid;
 }
 
@@ -182,3 +184,36 @@ table tr:first-child th{
 	border-bottom: 1px solid;
 }
 /* end chapter 13 table */
+
+/* appendix tables */
+#appendix table{
+	width: 100%;
+}
+
+#appendix th{
+	font-variant: small-caps;
+	font-weight: normal;
+}
+
+#appendix table td:last-child,
+#appendix table:nth-of-type(9) tbody tr:nth-of-type(n+1):nth-of-type(-n+2) td:nth-of-type(2),
+#appendix table:nth-of-type(9) tbody tr:nth-of-type(n+3):nth-of-type(-n+7) td:nth-of-type(3),
+#appendix table:nth-of-type(9) tbody tr:nth-of-type(8) td:nth-of-type(2){
+	text-align: right;
+	font-variant-numeric: tabular-nums;
+}
+
+/* #appendix table:nth-of-type(12) td:not(:first-of-type){ */
+#appendix table:nth-of-type(12) td + td{
+	text-align: right;
+}
+
+#appendix table:nth-of-type(12) thead tr{
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+}
+
+#appendix table:nth-of-type(12) tbody tr:last-of-type{
+	border-bottom: 1px solid;
+}
+/* end appendix tables */
