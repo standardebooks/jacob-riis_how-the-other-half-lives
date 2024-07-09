@@ -35,6 +35,12 @@
 [epub|type~="epigraph"] em{
 	font-style: normal;
 }
+
+[epub|type~="epigraph"] cite{
+	font-style: normal;
+	font-variant: small-caps;
+	margin-top: 1em;
+}
 /* end all epigraphs */
 
 /* full-page epigraphs */
@@ -63,10 +69,6 @@ section[epub|type~="epigraph"] > *{
 
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
-	}
-
-	section[epub|type~="epigraph"] > * + *{
-		margin-top: 3em;
 	}
 }
 /* end full-page epigraphs */
