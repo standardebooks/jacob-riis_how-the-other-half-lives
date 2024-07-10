@@ -30,49 +30,96 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">How the Other Half Lives</dc:title>
 		<meta property="file-as" refines="#title">How the Other Half Lives</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Studies Among the Tenements of New York</dc:title>
+		<meta property="file-as" refines="#subtitle">Studies Among the Tenements of New York</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">How the Other Half Lives: Studies Among the Tenements of New York</dc:title>
+		<meta property="file-as" refines="#fulltitle">How the Other Half Lives</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Poor -- New York (State) -- New York</dc:subject>
 		<dc:subject id="subject-2">Tenement houses -- New York (State) -- New York</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008109777</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2010116091</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Nonfiction</meta>
+		<dc:description id="description">A social reformer documents the living conditions of the poor in the tenements of New York City.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;The Danish immigrant &lt;a href="https://standardebooks.org/ebooks/jacob-riis"&gt;Jacob Riis&lt;/a&gt; went around the slums of New York City to highlight the squalor in which this “other half” lived. He used flash photography (a new innovation), tables of statistics, and personal stories as he explored the various neighborhoods, which were often divided along ethnic lines. He paid special attention to each neighborhood and to special subjects such as working women, children, and excessive drinking.&lt;/p&gt;
+			&lt;p&gt;“How the Other Half Lives” was first published as an article in &lt;i&gt;Scribner’s Magazine&lt;/i&gt; in 1889, along with many illustrations that were based directly off of Riis’s photography. It was expanded into a full book in the next year, with the inclusion of more illustrations and some of his original photos. Many in the upper class reported being shocked by the conditions, about which they knew very little. Religious organizations in New York and even beyond gave similar reactions. The work was well received and considered quite good reporting.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/45502</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/howotherhalflive00riis_1</dc:source>
+		<meta property="se:production-notes">Reworked the large appendix table into smaller and more understandable units.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/How_the_Other_Half_Lives</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/jacob-riis_how-the-other-half-lives</meta>
 		<dc:creator id="author">Jacob Riis</dc:creator>
 		<meta property="file-as" refines="#author">Riis, Jacob</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Jacob August Riis</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Jacob_Riis</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80038476</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">pht</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
+		<dc:contributor id="illustrator-1">Otto H. Bacher</dc:contributor>
+		<meta property="file-as" refines="#illustrator-1">Bacher, Otto H.</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator-1">https://en.wikipedia.org/wiki/Otto_Henry_Bacher</meta>
+		<meta property="se:url.authority.nacoaf" refines="#illustrator-1">http://id.loc.gov/authorities/names/n83139113</meta>
+		<meta property="role" refines="#illustrator-1" scheme="marc:relators">ill</meta>
+		<meta property="display-seq" refines="#illustrator-1">0</meta>
+		<dc:contributor id="illustrator-2">Kenyon Cox</dc:contributor>
+		<meta property="file-as" refines="#illustrator-2">Cox, Kenyon</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator-2">https://en.wikipedia.org/wiki/Kenyon_Cox</meta>
+		<meta property="se:url.authority.nacoaf" refines="#illustrator-2">http://id.loc.gov/authorities/names/n80022985</meta>
+		<meta property="role" refines="#illustrator-2" scheme="marc:relators">ill</meta>
+		<meta property="display-seq" refines="#illustrator-2">0</meta>
+		<dc:contributor id="illustrator-3">Clifton Johnson</dc:contributor>
+		<meta property="file-as" refines="#illustrator-3">Johnson, Clifton</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator-3">https://en.wikipedia.org/wiki/Clifton_Johnson_(author)</meta>
+		<meta property="se:url.authority.nacoaf" refines="#illustrator-3">http://id.loc.gov/authorities/names/n82116301</meta>
+		<meta property="role" refines="#illustrator-3" scheme="marc:relators">ill</meta>
+		<meta property="display-seq" refines="#illustrator-3">0</meta>
+		<dc:contributor id="illustrator-4">W. C. Fitler</dc:contributor>
+		<meta property="file-as" refines="#illustrator-4">Fitler, W. C.</meta>
+		<meta property="se:url.authority.nacoaf" refines="#illustrator-4">http://id.loc.gov/authorities/names/n2017025557</meta>
+		<meta property="role" refines="#illustrator-4" scheme="marc:relators">ill</meta>
+		<meta property="display-seq" refines="#illustrator-4">0</meta>
+		<dc:contributor id="illustrator-5">Victor Perard</dc:contributor>
+		<meta property="file-as" refines="#illustrator-5">Perard, Victor</meta>
+		<meta property="se:url.authority.nacoaf" refines="#illustrator-5">http://id.loc.gov/authorities/names/n85005798</meta>
+		<meta property="role" refines="#illustrator-5" scheme="marc:relators">ill</meta>
+		<meta property="display-seq" refines="#illustrator-5">0</meta>
+		<dc:contributor id="artist">John R. Grabach</dc:contributor>
+		<meta property="file-as" refines="#artist">Grabach, John R.</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_R._Grabach</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80023502</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">K. D. Weeks</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Weeks, K. D.</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">David Edwards</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Edwards, David</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Jason Livermore</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Livermore, Jason</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/jason-livermore-b854a97</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
