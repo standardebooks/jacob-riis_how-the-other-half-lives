@@ -203,11 +203,12 @@ table tr:first-child th{
 }
 
 #appendix table td:last-child,
-#appendix table:nth-of-type(9) tbody tr:nth-of-type(n+1):nth-of-type(-n+2) td:nth-of-type(2),
-#appendix table:nth-of-type(9) tbody tr:nth-of-type(n+3):nth-of-type(-n+7) td:nth-of-type(3),
+#appendix table:nth-of-type(9) tbody tr:first-of-type td:nth-of-type(2),
+#appendix table:nth-of-type(9) tbody tr:nth-of-type(2) td:nth-of-type(2),
+#appendix table:nth-of-type(9) tbody td:nth-of-type(3),
 #appendix table:nth-of-type(9) tbody tr:nth-of-type(8) td:nth-of-type(2){
-	text-align: right;
 	font-variant-numeric: tabular-nums;
+	text-align: right;
 }
 
 #appendix table:nth-of-type(12) td + td{
