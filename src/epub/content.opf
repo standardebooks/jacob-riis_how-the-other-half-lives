@@ -126,8 +126,8 @@
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="css/se.css" id="se.css" media-type="text/css"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
-		<item href="images/illustration-1.svg" id="illustration-1.svg" media-type="image/svg+xml"/>
-		<item href="images/illustration-2.jpg" id="illustration-2.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-1.jpg" id="illustration-1.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-2.svg" id="illustration-2.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-3.svg" id="illustration-3.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-4.jpg" id="illustration-4.jpg" media-type="image/jpeg"/>
 		<item href="images/illustration-5.svg" id="illustration-5.svg" media-type="image/svg+xml"/>
