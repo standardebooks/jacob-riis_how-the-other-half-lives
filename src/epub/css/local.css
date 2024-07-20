@@ -165,34 +165,34 @@ table tr:first-child th{
 /* end chapter 6 table */
 
 /* chapter 13 table */
+#chapter-13 thead tr:last-child td:first-child,
 #chapter-13 th:first-child,
 #chapter-13 tr:last-child td:nth-child(3),
 #chapter-13 tr:nth-of-type(-n+11) td:nth-child(5){
 	border-right: 1px solid;
-	font-variant-numeric: tabular-nums;
 }
 
-#chapter-13 thead tr:last-child td:first-child{
-	border-right: 1px solid;
+#chapter-13 thead td{
+	text-align: right;
 }
 
 #chapter-13 tbody td:nth-child(5),
 #chapter-13 tbody td:last-child,
-#chapter-13 thead tr:last-child{
+#chapter-13 tbody tr:last-child td:nth-child(3){
 	font-variant-numeric: tabular-nums;
-	padding-left: .5em;
-	padding-right: .5em;
 	text-align: right;
 }
 
-#chapter-13 tbody td:nth-child(3),
-#chapter-13 tbody td:nth-child(8){
-	text-align: center;
+#chapter-13 thead tr + tr td:first-child,
+#chapter-13 tbody td:nth-child(5),
+#chapter-13 tbody tr:last-child td:nth-child(3){
+	padding-right: .5em;
 }
 
-#chapter-13 tbody tr:nth-child(11) td:nth-child(5),
-#chapter-13 tbody tr:nth-child(11) td:last-child{
-	border-bottom: 1px solid;
+#chapter-13 tbody td:nth-child(6),
+#chapter-13 tbody tr:last-child td:nth-child(3),
+#chapter-13 tbody tr:last-child td:nth-child(4){
+	padding-left: .5em;
 }
 /* end chapter 13 table */
 
