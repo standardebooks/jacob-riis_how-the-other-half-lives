@@ -148,9 +148,13 @@ table tr:first-child th{
 
 #chapter-6 table td + td{
 	border-left: 1px solid;
-	font-variant-numeric: tabular-nums;
 	text-align: center;
 	width: 10%;
+}
+
+#chapter-6 tbody tr + tr td + td{
+	font-variant-numeric: tabular-nums;
+	text-align: right;
 }
 
 #chapter-6 tbody tr:nth-child(1),
