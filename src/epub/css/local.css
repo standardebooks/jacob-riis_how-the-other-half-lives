@@ -197,8 +197,19 @@ table tr:first-child th{
 /* end chapter 13 table */
 
 /* appendix tables */
-#appendix table{
-	width: 100%;
+#appendix th:first-child{
+	text-align: initial;
+}
+
+#appendix > table:nth-of-type(2) th,
+#appendix th + th{
+	padding-left: 1em;
+	text-align: right;
+}
+
+#appendix caption,
+#appendix thead tr{
+	border-bottom: 1px solid;
 }
 
 #appendix th{
@@ -206,25 +217,34 @@ table tr:first-child th{
 	font-weight: normal;
 }
 
-#appendix table td:last-child,
-#appendix table:nth-of-type(9) tbody tr:first-of-type td:nth-of-type(2),
-#appendix table:nth-of-type(9) tbody tr:nth-of-type(2) td:nth-of-type(2),
-#appendix table:nth-of-type(9) tbody td:nth-of-type(3),
-#appendix table:nth-of-type(9) tbody tr:nth-of-type(8) td:nth-of-type(2){
+#appendix table td + td,
+#appendix > table:nth-of-type(2) td{
 	font-variant-numeric: tabular-nums;
+	padding-left: 1em;
 	text-align: right;
 }
 
-#appendix table:nth-of-type(12) td + td{
+#appendix-2 table:nth-of-type(3) td + td{
 	text-align: right;
 }
 
-#appendix table:nth-of-type(12) thead tr{
+#appendix-2 table:nth-of-type(3) thead tr{
 	border-bottom: 1px solid;
 	border-top: 1px solid;
 }
 
-#appendix table:nth-of-type(12) tbody tr:last-of-type{
+#appendix-2 table:nth-of-type(3) tbody tr:last-of-type{
 	border-bottom: 1px solid;
 }
 /* end appendix tables */
+
+/* appendix headers */
+#appendix header{
+	font-variant: small-caps;
+	margin-top: 2em;
+}
+
+#appendix header + *{
+	margin-top: 1em;
+}
+/* end appendix headers */
