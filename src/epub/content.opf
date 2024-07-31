@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/jacob-riis/how-the-other-half-lives</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2024-07-31T17:37:28Z</dc:date>
+		<meta property="dcterms:modified">2024-07-31T17:37:28Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -46,15 +46,15 @@
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">A social reformer documents the living conditions of the poor in the tenements of New York City.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;The Danish-American journalist &lt;a href="https://standardebooks.org/ebooks/jacob-riis"&gt;Jacob Riis&lt;/a&gt; went around the slums of New York City to highlight the squalor in which the “other half” lived. He used flash photography (a new innovation), tables of statistics, and personal stories as he explored the various neighborhoods. Several different ethnic groups are explored and characterized in detail. Riis did not merely document, but wrote in moralistic terms about greedy landlords, the abundance of cheap beer dives and saloons, the low character of the tenants, and the very low wages on which the poor tried to subsist. He described some reforms already implemented, as well as those still needed.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;How the Other Half Lives&lt;/i&gt; was written at a time when many people were crowding into New York City. It was first published as an article in &lt;i&gt;Scribner’s Magazine&lt;/i&gt; in 1889, along with many illustrations that were based directly on Riis’s photography. It was expanded into a full book in the next year, with the inclusion of more illustrations and some of Riis’s original photographs. The middle and upper classes were shocked by the described conditions, about which they knew very little. Christian organizations in New York and even beyond gave similar reactions. The work was widely praised, and led to the enacting of many reforms in the following years, to improve the conditions of the tenements and the working poor.&lt;/p&gt;
+			&lt;p&gt;The Danish-American journalist &lt;a href="https://standardebooks.org/ebooks/jacob-riis"&gt;Jacob Riis&lt;/a&gt; visited the slums of New York City to highlight the squalor in which the “other half” lived. He used flash photography (a new innovation), tables of statistics, and personal stories to vividly depict the city’s various neighborhoods and ethnic groups. But the book isn’t merely a factual documentary—it’s also a moralistic appraisal of greedy landlords, the abundance of cheap beer dives and saloons, the low character of the tenants, and the very low wages on which the poor tried to subsist. He described some reforms already implemented, as well as those still needed.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;How the Other Half Lives&lt;/i&gt; was written at a time when many people were crowding into New York City. It was first published as an article in &lt;i&gt;Scribner’s Magazine&lt;/i&gt; in 1889, along with many illustrations that were based directly on Riis’s photography. It was expanded into a full book in the next year, with the inclusion of more illustrations and some of Riis’s original photographs. The middle and upper classes were shocked by what the book described, about which they knew very little. Christian organizations in New York and beyond had similar reactions. The book was widely praised, and led to the enactment of many reforms in the following years aimed at improving the conditions of the tenements and the working poor.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/45502</dc:source>
 		<dc:source>https://archive.org/details/howotherhalflive00riis_1</dc:source>
-		<meta property="se:production-notes">Reworked the large appendix table into smaller and more understandable units.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">The large appendix table has been rewored into smaller, more understandable units.</meta>
+		<meta property="se:word-count">80125</meta>
+		<meta property="se:reading-ease.flesch">64.44</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/How_the_Other_Half_Lives</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/jacob-riis_how-the-other-half-lives</meta>
 		<dc:creator id="author">Jacob Riis</dc:creator>
@@ -120,6 +120,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
