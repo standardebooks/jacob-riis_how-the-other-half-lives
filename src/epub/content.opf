@@ -62,11 +62,11 @@
 		<meta property="se:name.person.full-name" refines="#author">Jacob August Riis</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Jacob_Riis</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80038476</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">pht</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="illustrator-1">Otto H. Bacher</dc:contributor>
 		<meta property="file-as" refines="#illustrator-1">Bacher, Otto H.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator-1">https://en.wikipedia.org/wiki/Otto_Henry_Bacher</meta>
