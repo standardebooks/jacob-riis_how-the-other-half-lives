@@ -53,7 +53,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/45502</dc:source>
 		<dc:source>https://archive.org/details/howotherhalflive00riis_1</dc:source>
 		<meta property="se:production-notes">The large appendix table has been rewored into smaller, more understandable units.</meta>
-		<meta property="se:word-count">80125</meta>
+		<meta property="se:word-count">79803</meta>
 		<meta property="se:reading-ease.flesch">64.44</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/How_the_Other_Half_Lives</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/jacob-riis_how-the-other-half-lives</meta>
