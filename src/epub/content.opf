@@ -72,29 +72,24 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator-1">https://en.wikipedia.org/wiki/Otto_Henry_Bacher</meta>
 		<meta property="se:url.authority.nacoaf" refines="#illustrator-1">http://id.loc.gov/authorities/names/n83139113</meta>
 		<meta property="role" refines="#illustrator-1" scheme="marc:relators">ill</meta>
-		<meta property="display-seq" refines="#illustrator-1">0</meta>
 		<dc:contributor id="illustrator-2">Kenyon Cox</dc:contributor>
 		<meta property="file-as" refines="#illustrator-2">Cox, Kenyon</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator-2">https://en.wikipedia.org/wiki/Kenyon_Cox</meta>
 		<meta property="se:url.authority.nacoaf" refines="#illustrator-2">http://id.loc.gov/authorities/names/n80022985</meta>
 		<meta property="role" refines="#illustrator-2" scheme="marc:relators">ill</meta>
-		<meta property="display-seq" refines="#illustrator-2">0</meta>
 		<dc:contributor id="illustrator-3">Clifton Johnson</dc:contributor>
 		<meta property="file-as" refines="#illustrator-3">Johnson, Clifton</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator-3">https://en.wikipedia.org/wiki/Clifton_Johnson_(author)</meta>
 		<meta property="se:url.authority.nacoaf" refines="#illustrator-3">http://id.loc.gov/authorities/names/n82116301</meta>
 		<meta property="role" refines="#illustrator-3" scheme="marc:relators">ill</meta>
-		<meta property="display-seq" refines="#illustrator-3">0</meta>
 		<dc:contributor id="illustrator-4">W. C. Fitler</dc:contributor>
 		<meta property="file-as" refines="#illustrator-4">Fitler, W. C.</meta>
 		<meta property="se:url.authority.nacoaf" refines="#illustrator-4">http://id.loc.gov/authorities/names/n2017025557</meta>
 		<meta property="role" refines="#illustrator-4" scheme="marc:relators">ill</meta>
-		<meta property="display-seq" refines="#illustrator-4">0</meta>
 		<dc:contributor id="illustrator-5">Victor Perard</dc:contributor>
 		<meta property="file-as" refines="#illustrator-5">Perard, Victor</meta>
 		<meta property="se:url.authority.nacoaf" refines="#illustrator-5">http://id.loc.gov/authorities/names/n85005798</meta>
 		<meta property="role" refines="#illustrator-5" scheme="marc:relators">ill</meta>
-		<meta property="display-seq" refines="#illustrator-5">0</meta>
 		<dc:contributor id="artist">John R. Grabach</dc:contributor>
 		<meta property="file-as" refines="#artist">Grabach, John R.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_R._Grabach</meta>
