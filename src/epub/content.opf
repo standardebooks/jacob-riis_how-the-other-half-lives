@@ -37,7 +37,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">How the Other Half Lives: Studies Among the Tenements of New York</dc:title>
 		<meta property="file-as" refines="#fulltitle">How the Other Half Lives</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Poor -- New York (State) -- New York</dc:subject>
 		<dc:subject id="subject-2">Tenement houses -- New York (State) -- New York</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
