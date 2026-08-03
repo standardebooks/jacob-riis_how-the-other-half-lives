@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/jacob-riis/how-the-other-half-lives</dc:identifier>
 		<dc:date>2024-07-31T17:37:28Z</dc:date>
@@ -45,11 +45,11 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2010116091</meta>
 		<meta property="schema:genre">Nonfiction</meta>
-		<dc:description id="description">A social reformer documents the living conditions of the poor in the tenements of New York City.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A social reformer documents the living conditions of the poor in the tenements of New York City.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;The Danish-American journalist &lt;a href="https://standardebooks.org/ebooks/jacob-riis"&gt;Jacob Riis&lt;/a&gt; visited the slums of New York City to highlight the squalor in which the “other half” lived. He used flash photography (a new innovation), tables of statistics, and personal stories to vividly depict the city’s various neighborhoods and ethnic groups. But the book isn’t merely a factual documentary—it’s also a moralistic appraisal of greedy landlords, the abundance of cheap beer dives and saloons, the low character of the tenants, and the very low wages on which the poor tried to subsist. He described some reforms already implemented, as well as those still needed.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;How the Other Half Lives&lt;/i&gt; was written at a time when many people were crowding into New York City. It was first published as an article in &lt;i&gt;Scribner’s Magazine&lt;/i&gt; in 1889, along with many illustrations that were based directly on Riis’s photography. It was expanded into a full book in the next year, with the inclusion of more illustrations and some of Riis’s original photographs. The middle and upper classes were shocked by what the book described, about which they knew very little. Christian organizations in New York and beyond had similar reactions. The book was widely praised, and led to the enactment of many reforms in the following years aimed at improving the conditions of the tenements and the working poor.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/45502</dc:source>
 		<dc:source>https://archive.org/details/howotherhalflive00riis_1</dc:source>
