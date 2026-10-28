@@ -90,6 +90,7 @@
 		<meta property="role" refines="#illustrator-4" scheme="marc:relators">ill</meta>
 		<dc:contributor id="illustrator-5">Victor Perard</dc:contributor>
 		<meta property="file-as" refines="#illustrator-5">Perard, Victor</meta>
+		<link href="https://en.wikipedia.org/wiki/Victor_P%C3%A9rard" refines="#illustrator-5" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n85005798.html" refines="#illustrator-5" rel="schema:sameAs"/>
 		<meta property="role" refines="#illustrator-5" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">John R. Grabach</dc:contributor>
